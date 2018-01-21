@@ -3,5 +3,7 @@ def prime?(a)
     true
   elsif a <= 1 || a % 2 == 0
     false
+  else
+    (3..a-1) 
   end
 end
