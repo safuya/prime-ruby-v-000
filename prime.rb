@@ -6,7 +6,7 @@ def prime?(a)
   else
     (3..a-1).to_a.each do |i|
       if a % i == 0
-        false
+        return false
       end
     end
     true
